@@ -8,14 +8,7 @@ const Projects = () => {
       technologies: ["React", "Node.js", "MySQL", "Express"],
       github: "https://github.com/aderajew/construction-information-management",
       demo: "#"
-    },
-    {
-      title: "Attendance Management System",
-      description: "Full-featured attendance management platform with student management, teacher management, and attendance tracking with reporting.",
-      technologies: ["React", "Node.js", "MySQL", "Redux"],
-      github: "https://github.com/aderajew/attendance-management",
-      demo: "#"
-    },                  
+    },                
     {
       title: "Face Recognition System",
       description: "AI-powered face recognition system for attendance tracking and security using Python and machine learning libraries.",
@@ -31,32 +24,11 @@ const Projects = () => {
       demo: "#"
     },
     {
-      title: "School Management System",
-      description: "Comprehensive school management system with student enrollment, grade management, attendance, and parent communication.",
-      technologies: ["React", "Node.js", "MySQL", "Express"],
-      github: "https://github.com/aderajew/school-management",
-      demo: "#"
-    },
-    {
       title: "Portfolio Website",
       description: "Professional responsive portfolio website showcasing projects, skills, and achievements with modern design and dark mode.",
       technologies: ["React", "CSS3", "React Icons", "EmailJS"],
       github: "https://github.com/aderajew/portfolio",
       demo: "https://aderajewtilahun.github.io/portfolio"
-    },
-    {
-      title: "Overtime Scheduling Website ",
-      description: "System for managing over time scheduling for employees, time tracking, and reporting capabilities.",
-      technologies: ["React", "Node.js", "MySQL", "Express"],
-      github: "#",
-      demo: "#"
-    },
-    {
-      title: "Summary preparation website",       
-      description: "Summary preparation website for Tsedey Bank For SOC to visualize key metrics and data from multiple sources in one centralized view.",
-      technologies: ["React", "Node.js", "Chart.js", "MySQL"],
-      github: "#",
-      demo: "#"
     }
   ];
 

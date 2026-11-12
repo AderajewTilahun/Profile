@@ -15,7 +15,7 @@ const Skills = () => {
     {
       category: "Database",
       icon: <FaDatabase />,
-      skills: ["MySQL", "PostgreSQL", "MongoDB"]
+      skills: ["MySQL", "PostgreSQL"]
     },
     {
       category: "Programming",
@@ -25,7 +25,7 @@ const Skills = () => {
     {
       category: "Tools & DevOps",
       icon: <FaGitAlt />,
-      skills: ["Git", "NPM", "VS Code", "Postman"]
+      skills: ["Git", "VS Code"]
     },
     {
       category: "Learning",

@@ -15,7 +15,6 @@ const Certificates = () => {
       date: "2026",
       description:
         "Successfully completed the Fundamentals of Python Programming certification, covering core Python concepts including variables, data types, operators, control structures, functions, modules, file handling, and object-oriented programming. Developed practical skills in writing efficient Python code, problem-solving, debugging, and building foundational applications for software development and automation.",
-      credentialId: "CIQ-261745494.CR641",
       image: cert1,
     },
     {
@@ -24,7 +23,6 @@ const Certificates = () => {
       date: "2026",
       description:
         "Successfully completed the Data Analysis with Python certification, covering core Python concepts including variables, data types, operators, control structures, functions, modules, file handling, and object-oriented programming. Developed practical skills in writing efficient Python code, problem-solving, debugging, and building foundational applications for software development and automation.",
-      credentialId: "UDACITY-261745494.CR641",
       image: cert2,
     },
     {
@@ -33,7 +31,6 @@ const Certificates = () => {
       date: "2026",
       description:
         "Successfully completed the Artificial Intelligence certification, gaining knowledge in machine learning fundamentals, neural networks, natural language processing, computer vision, and AI-driven problem-solving techniques. Developed practical skills in building intelligent systems, analyzing data, and applying AI models to real-world applications.",
-      credentialId: "UDACITY-AI-261745494",
       image: cert3,
     },
     {
@@ -42,7 +39,6 @@ const Certificates = () => {
       date: "2026",
       description:
         "Successfully completed the Programming Fundamentals certification, covering essential programming concepts including algorithms, data structures, variables, control flow, functions, object-oriented programming, debugging, and software development best practices. Strengthened problem-solving abilities and coding skills across modern programming environments.",
-      credentialId: "UDACITY-PROG-261745494",
       image: cert4,
     },
     {
@@ -51,7 +47,6 @@ const Certificates = () => {
       date: "2026",
       description:
         "Successfully completed the Android Development certification, focusing on designing and building mobile applications using Android Studio. Gained hands-on experience in user interface design, activities, intents, data storage, API integration, debugging, and deploying responsive Android applications following industry best practices.",
-      credentialId: "UDACITY-ANDROID-261745494",
       image: cert5,
     },
     {
@@ -100,9 +95,6 @@ const Certificates = () => {
                 <span className="certificate-date">{cert.date}</span>
               </div>
               <p className="certificate-description">{cert.description}</p>
-              <div className="certificate-footer">
-                <span className="credential-id">ID: {cert.credentialId}</span>
-              </div>
             </div>
           </div>
         ))}

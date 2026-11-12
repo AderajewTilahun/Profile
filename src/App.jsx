@@ -6,7 +6,6 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Certificates from "./components/Certificates";
 import Testimonials from "./components/Testimonials";
-import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Sidebar from "./components/Sidebar";
@@ -47,7 +46,6 @@ const App = () => {
       <Projects />
       <Certificates />
       <Testimonials />
-      <Blog />
       <Contact />
       <Footer />
       <BackToTop />

@@ -5,7 +5,7 @@ const About = () => {
   const [typedText, setTypedText] = useState("");
   const [isTyping, setIsTyping] = useState(true);
 
-  const fullText = "I am a passionate Full-Stack Developer and Information Security Analyst with experience in designing, developing, and securing modern web applications. My technical expertise includes React.js, Node.js, Express.js, MySQL, and RESTful APIs, enabling me to build scalable, efficient, and user-friendly solutions. Currently, I work as an Information Security Analyst at Tsedey Bank, where I monitor security events, investigate incidents, analyze threats, and support the organization's cybersecurity operations. My combined background in software development and cybersecurity allows me to build solutions that are not only functional and scalable but also secure by design. I am continuously expanding my knowledge in cloud technologies, cybersecurity, and modern software engineering practices, with a strong passion for problem-solving, innovation, and delivering impactful digital solutions.";
+  const fullText = "I am a Computer Science graduate and an Information Security analyst with a strong passion for cybersecurity. I currently work as a Security Operations Officer at Tsedey Bank, where I contribute to protecting organizational systems, monitoring security events, analyzing potential threats, and supporting information security operations.I am a motivated, detail-oriented, and creative professional who continuously explores new technologies, improves technical and design skills, and embraces opportunities to learn and grow. My goal is to combine cybersecurity and creativity to deliver secure, innovative, and impactful digital solutions.";
 
   useEffect(() => {
     let index = 0;
@@ -63,7 +63,7 @@ const About = () => {
               <FaShieldAlt className="about-icon" />
               <div>
                 <h3>Current Role</h3>
-                <p>Information Security Analyst at Tsedey Bank (Since August 26)</p>
+                <p>Information Security Analyst at Tsedey Bank (Since August 26, 2025)</p>
               </div>
             </div>
             
@@ -71,7 +71,7 @@ const About = () => {
               <FaBriefcase className="about-icon" />
               <div>
                 <h3>Development Experience</h3>
-                <p>Full-Stack Development & Software Engineering</p>
+                <p>Junior website developer</p>
               </div>
             </div>
             
@@ -88,5 +88,4 @@ const About = () => {
     </section>
   );
 };
-
 export default About;

@@ -14,9 +14,9 @@ const Contact = () => {
   const [submitError, setSubmitError] = useState("");
 
   // EmailJS Configuration - Replace with your actual credentials
-  const SERVICE_ID = "service_snc2x6w";
+  const SERVICE_ID = "service_5sv3sfi";
   const TEMPLATE_ID = "template_1anrjfc";
-  const PUBLIC_KEY = "yBS93tKAkSyhukexT";
+  const PUBLIC_KEY = "sew29aZSRDDKJXgEl";
 
   const validateForm = () => {
     const newErrors = {};
@@ -107,30 +107,6 @@ const Contact = () => {
         <div className="contact-info">
           <h3>Let's Connect</h3>
           <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
-          
-          <div className="contact-links">
-            <a href="mailto:aderajewtilahun495@gmail.com" className="contact-link">
-              <FaEnvelope /> aderajewtilahun495@gmail.com
-            </a>
-            
-            <a
-              href="https://github.com/aderajew"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="contact-link"
-            >
-              <FaGithub /> github.com/aderajew
-            </a>
-            
-            <a
-              href="https://www.linkedin.com/in/aderajew"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="contact-link"
-            >
-              <FaLinkedin /> linkedin.com/in/aderajew
-            </a>
-          </div>
         </div>
         
         <div className="contact-form">

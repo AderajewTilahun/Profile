@@ -26,7 +26,7 @@ const Sidebar = () => {
 
         {/* Name & Title */}
         <h2 className="name">Aderajew Tilahun</h2>
-        <p className="title">Full Stack Developer & Information Security Analyst</p>
+        <p className="title"> Junior website Developer & Information Security Analyst</p>
 
         {/* Resume Button */}
         <a href="https://aderajewtilahun.github.io/portfolio/resume.pdf" target="_blank" rel="noopener noreferrer" className="resume-btn">

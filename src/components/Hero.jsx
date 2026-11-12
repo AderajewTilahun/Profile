@@ -7,11 +7,10 @@ const Hero = () => {
         <p className="hero-greeting">Hi, I'm</p>
         <h1 className="hero-name">Aderajew Tilahun</h1>
         <h2 className="hero-title">
-          <span className="typing-text">Full-Stack Developer & Information Security Analyst</span>
+          <span className="typing-text">Junior website Developer & Information Security Analyst</span>
         </h2>
         <p className="hero-description">
           Passionate about building modern web applications with React, Node.js, and MySQL.
-          I create clean, secure, and scalable solutions. Currently working at Tsedey Bank.
         </p>
         
         <div className="hero-achievements">
