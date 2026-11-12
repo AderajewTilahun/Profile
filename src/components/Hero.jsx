@@ -8,11 +8,7 @@ const Hero = () => {
         <h1 className="hero-name">Aderajew Tilahun</h1>
         <h2 className="hero-title">
           <span className="typing-text">Junior website Developer & Information Security Analyst</span>
-        </h2>
-        <p className="hero-description">
-          Passionate about building modern web applications with React, Node.js, and MySQL.
-        </p>
-        
+        </h2>        
         <div className="hero-achievements">
           <div className="achievement-badge">
             <FaAward /> CGPA 3.95
