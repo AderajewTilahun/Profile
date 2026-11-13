@@ -63,18 +63,10 @@ const About = () => {
               <FaShieldAlt className="about-icon" />
               <div>
                 <h3>Current Role</h3>
-                <p>Information Security Analyst at Tsedey Bank (Since August 26, 2025)</p>
+                <p>Junior security operation Officer (Since August 26, 2025)</p>
               </div>
             </div>
-            
-            <div className="about-item">
-              <FaBriefcase className="about-icon" />
-              <div>
-                <h3>Development Experience</h3>
-                <p>Junior website developer</p>
-              </div>
-            </div>
-            
+                        
             <div className="about-item">
               <FaLightbulb className="about-icon" />
               <div>

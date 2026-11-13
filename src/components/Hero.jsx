@@ -8,19 +8,7 @@ const Hero = () => {
         <h1 className="hero-name">Aderajew Tilahun</h1>
         <h2 className="hero-title">
           <span className="typing-text">Junior website Developer & Information Security Analyst</span>
-        </h2>        
-        <div className="hero-achievements">
-          <div className="achievement-badge">
-            <FaAward /> CGPA 3.95
-          </div>
-          <div className="achievement-badge">
-            <FaTrophy /> Gold Medal Award
-          </div>
-          <div className="achievement-badge">
-            <FaAward /> Exit Exam 80%
-          </div>
-        </div>
-        
+        </h2>                
         <div className="hero-buttons">
           <a href="#projects" className="btn btn-primary">
             <FaLaptopCode /> View My Work
